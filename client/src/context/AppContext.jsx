@@ -5,7 +5,7 @@ export const AppContext = createContext()
 
 export const AppContextProvider = (props) => {
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+const backendUrl = import.meta.env.VITE_API_URL
 
 
     const [searchFilter,setSearchFilter] = useState({
